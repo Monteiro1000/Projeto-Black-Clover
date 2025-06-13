@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*Versão mobile first*/
+
 :root{
     --cor0: #f0b800c0;
     --cor1: black;
@@ -97,17 +99,6 @@ section.personagens > h2{
     padding-top: 100px;
     color: rgb(171, 146, 4);
     margin: 0px;
-}
-div#asta{ 
-    padding-top: 90px;
-}
-div#asta > p{
-    text-shadow: 5px 5px 15px rgba(255, 0, 0, 0.526);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
-    font-weight: 500;
-    color: darkred;
-    text-align: center;
 }
 
 footer{
