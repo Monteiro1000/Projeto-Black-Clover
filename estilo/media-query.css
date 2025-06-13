@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
-:root{
+/*Versão para todos os dispositivos*/
+
+
+@media screen and (min-width:768px) and /*TABLET */(max-width: 992px) {
+
+    :root{
     --cor0: #f0b800c0;
     --cor1: black;
     --cor2: darkred;
@@ -87,17 +92,6 @@ section.home > p{
     padding: 20px;
     color: white;
 }
-section.personagens{
-    box-shadow: 5px 5px 20px rgb(171, 146, 4);
-
-    margin-top: 100px;
-    background-color: black;
-}
-section.personagens > h2{
-    padding-top: 100px;
-    color: rgb(171, 146, 4);
-    margin: 0px;
-}
 
 
 footer{
@@ -115,5 +109,15 @@ footer > p{
 }
 footer > p::before{
     content: '© ';
+    
+}
+
+}
+
+@media screen and (min-width:992px) and /* DESKTOP */ (max-width: 1200px ) {
+    
+}
+
+@media screen and (min-width:1200px) /* GRANDES TELAS */ {
     
 }
